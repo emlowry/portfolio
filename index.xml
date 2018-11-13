@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="portfolio.xsl"?>
+
+<portfolio>
+
+  <name>Elizabeth Lowry&apos;s Portfolio</name>
+  <links>
+    <email icon="gmail.png">
+      <address>elizabeth.mary.lowry@gmail.com</address>
+      <subject>I saw your awesome portfolio!</subject>
+      <text>Hi Elizabeth,
+
+I saw your awesome portfolio and wanted to talk to you!
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Sincerely,
+An Awesome Person
+      </text>
+    </email>
+    <file icon="pdf.png" name="Resume">Elizabeth Lowry&apos;s Resume.pdf</file>
+    <file icon="docx.png" name="Resume (Word)">Elizabeth Lowry&apos;s Resume.docx</file>
+    <website icon="linkedin.png" name="LinkedIn">https://www.linkedin.com/in/elizabethlowry</website>
+    <website icon="github.png" name="GitHub">https://github.com/emlowry</website>
+  </links>
+
+  <item>
+    <id>me</id>
+    <name>About me</name>
+    <summary>
+      <p>
+        I love programming, especially when the end result is something visible and interactive.  I coded this portfolio myself - it uses XSL transformations, CSS, and a bit of JavaScript to turn XML into the awesome webpage you see before you.  I also made the wallpaper and icon myself!
+      </p>
+      <p>
+        I've attended Virginia Tech (B.S. and M.S. in Computer Science, B.S. in Physics, and a minor in Math) and the Academy of Interactive Entertainment in Seattle (Advanced Diploma of Professional Game Development specializing in Game Programming).  I've worked at Zynga, Amazon, Microsoft's Minecraft team, and Turn10 Studios.
+      </p>
+      <p>
+        Naturally, all this means I like to work on games, the front ends of websites, and virtual and augmented reality.
+      </p>
+    </summary>
+    <gallery>
+      <image>me.jpg</image>
+    </gallery>
+  </item>
+  
+  <item>
+    <id>billiards</id>
+    <name>Billiards</name>
+    <links>
+      <github>http://github.com/emlowry/Billiards</github>
+    </links>
+    <summary>
+      <p>
+        A pool table simulation using my own physics and renderers.  I used GLEW, GLFW, and GLM to talk to OpenGL, and STB to load images.
+      </p>
+      <p>
+        This was based off of several assignments I did for class at the Academy of Interactive Entertainment.
+      </p>
+    </summary>
+    <gallery>
+      <image>billiards.png</image>
+      <video>
+        <source type="video/webm">billiards_VP8.webm</source>
+        <source type="video/mp4">billiards_x264.mp4</source>
+      </video>
+    </gallery>
+  </item>
+  
+  <item>
+    <id>faetal</id>
+    <name>FaeTal</name>
+  <!-- Need to find out if that website is archived anywhere
+    <links>
+      <website>http://aie-seattle-dev.squarespace.com/fae-tal/</website>
+    </links>
+  -->
+    <summary>
+      <p>
+        FaeTal was a 4-vs-4 arena shooter built in Unity with networking handled by the Bolt Engine.  I implemented or helped to implement many of the core systems, such as health and damage tracking, weapon equipping and firing, spawn points, and integrating Bolt.  I also wrote custom code to let Mechanim root motion and Rigidbody physics to coexist without interfering with each other.
+      </p>
+      <p>
+        This was a group project I worked on with half of the other second-year students at the Academy of Interactive Entertainment at the end of my second year.
+      </p>
+      <p>
+        Unfortunately, the project website has vanished from the internet.
+      </p>
+    </summary>
+    <gallery>
+      <image>FaeTalWallpaper.png</image>
+      <youtube>gyA4Y2odyvE</youtube>
+      <youtube>mPee2gxwbrg</youtube>
+    </gallery>
+  </item>
+
+  <item>
+    <id>zombieroids</id>
+    <name>ZombieRoids</name>
+    <links>
+      <github>http://github.com/terrehbyte/ZombieRoids</github>
+    </links>
+    <summary>
+      <p>
+        ZombieRoids is basically Asteroids, except that instead of a spaceship shooting bullets at rocks, it's a ninja throwing ninja stars at zombies.
+      </p>
+      <p>
+        This was a group project I worked on with two other students at the end of my first year at the Academy of Interactive Entertainment.
+      </p>
+    </summary>
+    <gallery>
+      <video volume="0.25">
+        <source type="video/webm">zombieroids_VP8.webm</source>
+        <source type="video/mp4">zombieroids_x264.mp4</source>
+      </video>
+    </gallery>
+  </item>
+
+  <item>
+    <id>thud</id>
+    <name>Thud</name>
+    <links>
+      <github>http://github.com/emlowry/Thud</github>
+    </links>
+    <summary>
+      <p>
+        I implemented Thud, a game from Terry Pratchett's Discworld novels, using Windows Presentation Foundation.
+      </p>
+      <p>
+        In the game, players play as either Trolls or Dwarves.  Each player has a different number of pieces and different rules for moving pieces and for capturing their opponent's pieces.  When the game ends, the players tally up their remaining peices to determine their scores - Dwarf pieces are worth one point each while trolls, being less numerous on the board, are worth three.
+      </p>
+      <p>
+        Traditionally, two games are played, with players switching sides in the second game and
+        totalling their scores over both to determine the overall winner.
+      </p>
+    </summary>
+    <gallery>
+      <video>
+        <source type="video/webm">thud_VP8.webm</source>
+        <source type="video/mp4">thud_x264.mp4</source>
+      </video>
+    </gallery>
+  </item>
+
+  <item>
+    <id>sprites</id>
+    <name>Sprite Map Generator</name>
+    <links>
+      <github>http://github.com/emlowry/SpriteMapGenerator</github>
+    </links>
+    <summary>
+      <p>
+        I made a simple sprite map generator as a class project.  A user can add or remove images from the sprite sheet, srrange them manually or automatically, and save the sprite sheet as a single image, as an XML file pointing out where all the sprites in such an image would be, or as a single file containing all the individual sprite images and their locations on the sheet.
+      </p>
+    </summary>
+    <gallery>
+      <video>
+        <source type="video/webm">sprite_VP8.webm</source>
+        <source type="video/mp4">sprite_x264.mp4</source>
+      </video>
+    </gallery>
+  </item>
+
+  <item>
+    <id>engine</id>
+    <name>Game Engine</name>
+    <links>
+      <github>http://github.com/emlowry/MyFirstEngine</github>
+    </links>
+    <summary>
+      <p>
+        I made a simple game engine as a class project.  It provides classes for handling game
+        states, sprite animations, quad (and sprite) transforms, drawing text using fonts made of
+        sprites, and getting input from the mouse and keyboard.
+      </p>
+    </summary>
+    <gallery>
+      <video>
+        <source type="video/webm">demo_VP8.webm</source>
+        <source type="video/mp4">demo_x264.mp4</source>
+      </video>
+    </gallery>
+  </item>
+
+  <item>
+    <id>webcomic</id>
+    <name>Webcomic</name>
+    <links>
+      <website>http://www.catch-exception.com</website>
+    </links>
+    <summary>
+      <p>
+        I tried making a webcomic back in college.  I haven't updated it in years, but I include it here anyway because I set up all the SQL databases and wrote all the PHP files that pulled data from them.
+      </p>
+      <p>
+        I didn't write the PHP for the forum - that was just a phpBB install - but I did customize it a bit.
+      </p>
+    </summary>
+    <gallery>
+      <image>webcomic.png</image>
+      <image>webcomic2.png</image>
+      <image>webcomic3.png</image>
+      <image>webcomic_source.png</image>
+    </gallery>
+  </item>
+
+  <item>
+    <id>wishlist</id>
+    <name>XML Christmas/Birthday Wishlist</name>
+    <links>
+      <website>https://emlowry.github.io/wishlist/</website>
+      <github>http://github.com/emlowry/wishlist</github>
+    </links>
+    <summary>
+      <p>
+        Every year, I make a list to guide my family while gift shopping.
+      </p>
+      <p>
+        I don&apos;t want to worry about the formatting when I&apos;m just making a list, so I use non-HTML elements for the wishlist items, then use an XSL style sheet to transform that XML data into HTML.  The HTML is then styled further using a CSS style sheet.
+      </p>
+      <p>
+        I&apos;m using the same technique for this portfolio page.
+      </p>
+    </summary>
+    <gallery>
+      <image>wishlist.png</image>
+      <image>wishlist2.png</image>
+      <image>wishlist_source.png</image>
+    </gallery>
+  </item>
+
+</portfolio>
