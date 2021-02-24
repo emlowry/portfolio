@@ -32,7 +32,7 @@ An Awesome Person
         I love programming, especially when the end result is something visible and interactive.  I coded this portfolio myself - it uses XSL transformations, CSS, and a bit of JavaScript to turn XML into the awesome webpage you see before you.  I also made the wallpaper and icon myself!
       </p>
       <p>
-        I've attended Virginia Tech (B.S. and M.S. in Computer Science, B.S. in Physics, and a minor in Math) and the Academy of Interactive Entertainment in Seattle (Advanced Diploma of Professional Game Development specializing in Game Programming).  I've worked at Zynga, Amazon, Microsoft's Minecraft team, and Turn10 Studios.
+        I've attended Virginia Tech (B.S. and M.S. in Computer Science, B.S. in Physics, and a minor in Math) and the Academy of Interactive Entertainment in Seattle (Advanced Diploma of Professional Game Development specializing in Game Programming).  I've worked at Zynga, Amazon, Microsoft's Minecraft team, Turn10 Studios, and 343 Industries.
       </p>
       <p>
         Naturally, all this means I like to work on games, the front ends of websites, and virtual and augmented reality.
@@ -76,7 +76,7 @@ An Awesome Person
   -->
     <summary>
       <p>
-        FaeTal was a 4-vs-4 arena shooter built in Unity with networking handled by the Bolt Engine.  I implemented or helped to implement many of the core systems, such as health and damage tracking, weapon equipping and firing, spawn points, and integrating Bolt.  I also wrote custom code to let Mechanim root motion and Rigidbody physics to coexist without interfering with each other.
+        FaeTal was a 4-vs-4 arena shooter built in Unity with networking handled by the Bolt Engine.  I implemented or helped to implement many of the core systems, such as health and damage tracking, weapon equipping and firing, spawn points, and integrating Bolt.  I also wrote custom code to let Mechanim root motion and Rigidbody physics coexist without interfering with each other.
       </p>
       <p>
         This was a group project I worked on with half of the other second-year students at the Academy of Interactive Entertainment at the end of my second year.
@@ -128,8 +128,7 @@ An Awesome Person
         In the game, players play as either Trolls or Dwarves.  Each player has a different number of pieces and different rules for moving pieces and for capturing their opponent's pieces.  When the game ends, the players tally up their remaining peices to determine their scores - Dwarf pieces are worth one point each while trolls, being less numerous on the board, are worth three.
       </p>
       <p>
-        Traditionally, two games are played, with players switching sides in the second game and
-        totalling their scores over both to determine the overall winner.
+        Traditionally, two games are played, with players switching sides in the second game and totalling their scores over both to determine the overall winner.
       </p>
     </summary>
     <gallery>
